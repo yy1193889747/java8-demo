@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
  */
 public class TradeSort {
     public static void main(String[] args) {
+
         // 按币种分类 Currency
         List<Trade> trades = new ArrayList<Trade>();
         trades.add(new Trade(200, "HKD"));
