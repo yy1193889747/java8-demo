@@ -1,4 +1,10 @@
-package com.cy.java8demo.basis;
+package
+        com.cy.java8demo.basis;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author congyang.guo
@@ -22,7 +28,11 @@ public class Calculate {
     }
 
     public static void main(String[] args) {
-        // todo 存疑
+        // 32位不能省略
         System.out.println(-15 >>> 2);
+        System.out.println(tableSizeFor(25000));
+
+        List<Object> objects = new ArrayList<>();
+        Map<Object, Object> objectObjectHashMap = new HashMap<>(16);
     }
 }
